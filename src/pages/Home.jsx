@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React, { useState, useEffect } from 'react';
+import LoverForm from '../components/LoverForm'
+import Title from '../components/Title'
 function Home() {
+  
   return (
     <div>
-      <h1>This is home page.</h1>
+      <Title/>
+      <LoverForm  />
     </div>
   )
 }

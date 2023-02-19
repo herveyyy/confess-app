@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import ProfileCard from '../components/ProfileCard';
 
 function About() {
   return (
-    <div>
-      <h1>This is about page.</h1>
+    <div className='pt-16'>
+      <ProfileCard />
     </div>
   )
 }
