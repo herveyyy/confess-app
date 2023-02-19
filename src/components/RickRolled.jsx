@@ -1,4 +1,5 @@
 import React,{useRef,useEffect} from "react";
+
 function YoutubeEmbed() {
     const videoEl = useRef(null);
     const attemptPlay = () => {
@@ -20,7 +21,7 @@ function YoutubeEmbed() {
           autoPlay
           controls
           alt="All the devices"
-          src="src\data\RickVid.mp4"
+          src="../data/rickshort.mp4"
           ref={videoEl}
         />
 </div> 
