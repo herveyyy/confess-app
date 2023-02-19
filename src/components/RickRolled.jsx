@@ -14,8 +14,8 @@ function YoutubeEmbed() {
     }, []);
 
     return (
-         <div className="video-responsive">
- <video
+         <div>
+ {/* <video
           playsInline
           loop
           autoPlay
@@ -23,7 +23,9 @@ function YoutubeEmbed() {
           alt="All the devices"
           src="src\data\rickshort.mp4"
           
-        />
+        /> */}
+        <img className="w" 
+        src="https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif"/>
 </div> 
 );
 }
