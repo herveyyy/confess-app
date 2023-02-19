@@ -21,8 +21,8 @@ function YoutubeEmbed() {
           autoPlay
           controls
           alt="All the devices"
-          src="../data/rickshort.mp4"
-          ref={videoEl}
+          src="src\data\rickshort.mp4"
+          
         />
 </div> 
 );
