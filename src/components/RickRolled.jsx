@@ -17,6 +17,7 @@ function YoutubeEmbed() {
  <video
           playsInline
           loop
+          autoPlay
           controls
           alt="All the devices"
           src="src\data\RickVid.mp4"
